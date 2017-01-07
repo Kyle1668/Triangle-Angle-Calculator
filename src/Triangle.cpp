@@ -139,8 +139,7 @@ bool Triangle::isTriangle(float sideOne, float sideTwo, float sideThree)
     if (sideTest1 && sideTest2 && sideTest3)
     {
         return true;
-    }
-    else
+    } else
     {
         return false;
     }
